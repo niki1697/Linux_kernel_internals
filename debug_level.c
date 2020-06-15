@@ -12,7 +12,7 @@ static int debug_init(void)
       break;
       case 2:printk(KERN_INFO "medium debug verbosity\n");
       break;
-      case 3:printk(KERN_INFO "hign debug verbosity\n");
+      case 3:printk(KERN_INFO "high debug verbosity\n");
       break;
       default:printk(KERN_INFO "no debug message\n");
       break;
